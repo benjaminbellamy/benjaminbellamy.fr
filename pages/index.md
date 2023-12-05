@@ -1,32 +1,36 @@
 ---
 links:
+  - title: Mastodon 🇺🇸️
+    url: https://podcastindex.social/@benjaminbellamy
+    color: '#2074b1'
+    icon: brands:mastodon
+  - title: Mastodon 🇫🇷️
+    url: https://framapiaf.org/@benjaminbellamy
+    color: '#2074b1'
+    icon: brands:mastodon    
+  - title: Bluesky
+    url: https://bsky.app/profile/benjaminbellamy.fr
+    color: '#007afe'
+    icon: solid:square     
   - title: Twitter
-    url: https://twitter.com/ArnaudLigny/
-    color: '#1DA1F2'
+    url: https://twitter.com/benjaminbellamy
+    color: '#1D9BF0'
     icon: brands:twitter
-  - title: GitHub
-    url: https://github.com/ArnaudLigny/
-    color: '#000'
-    icon: brands:github
   - title: LinkedIn
-    url: https://linkedin.com/in/
-    color: '#0A66C2'
+    url: https://www.linkedin.com/in/bellamy/
+    color: '#0a66c2'
     icon: brands:linkedin
+  - title: GitHub
+    url: https://github.com/benjaminbellamy
+    color: '#24292f'
+    icon: brands:github
   - title: Blog
-    url: https://arnaudligny.fr/blog/
-    color: '#1A4A91'
-    icon: solid:blog
-  - title: Cecil
-    url: https://cecil.app
-    color: '#163C56'
-    icon: solid:user-tie
-  - title: Faire un don
-    url: https://www.paypal.com/donate/?hosted_button_id=B93F9MKHFX7T6
-    color: '#FED13C'
-    icon: brands:paypal
+    url: https://blog.castopod.org/author/benjamin-bellamy/
+    color: '#009486'
+    icon: solid:rss
   - title: Contact
-    url: mailto:john.doe@example.com
-    color: '#183153'
+    url: mailto:hello@benjaminbellamy.fr
+    color: '#be1565'
     icon: solid:envelope
 ---
-Hello, I am John Doe 👋
+Open-Source, Podcasts, AI & LLM · Father of [Castopod](https://castopod.org/) · CEO+Co-founder of [Ad Aures](https://adaures.com/)

@@ -1,9 +1,9 @@
-title: John Doe
-baseurl: https://cecil-links-demo.netlify.app/
-description: "Some links about John Doe."
+title: Benjamin Bellamy
+baseurl: https://benjaminbellamy.fr/
+description: Benjamin Bellamy's social media reference landing page
 author:
-  name: Arnaud Ligny
-  url: https://arnaudligny.fr
+  name: Benjamin Bellamy
+  url: https://benjaminbellamy.fr
 language: en
 languages:
   - code: en
@@ -12,28 +12,35 @@ languages:
   #- code: fr
   #  locale: fr
   #  name: Français
-avatar: avatar.png
-image: avatar.png # image used for the social share
+avatar: avatar.jpg
+image: avatar.jpg # image used for the social share
 metatags:
   favicon:
-    image: avatar.png
-source: https://github.com/Cecilapp/Links
+    image: avatar.jpg
+source: https://github.com/benjaminbellamy/benjaminbellamy.fr
 theme:
   - fontawesome
-  #- pwa
+  - pwa
   #- netlify
 manifest:
-  background_color: '#1E293B'
-  theme_color: '#1E293B'
+  background_color: '#2a2d7c'
+  theme_color: '#e91e63'
 serviceworker:
   enabled: true
 
-# disabled options
 defaultpages:
   404:
     published: false
   sitemap:
     published: false
+assets:
+  images:
+    optimize:
+      enabled: true
+    responsive:
+      enabled: true
+    webp:
+      enabled: true
 taxonomies:
   categories: disabled
   tags: disabled
