@@ -1,0 +1,17 @@
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  p {
+    @apply mt-4;
+  }
+  a {
+    @apply text-link;
+  }
+}
+
+html {
+  font-size: 18px
+}

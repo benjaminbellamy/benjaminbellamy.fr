@@ -1,0 +1,44 @@
+title: John Doe
+baseurl: https://cecil-links-demo.netlify.app/
+description: "Some links about John Doe."
+author:
+  name: Arnaud Ligny
+  url: https://arnaudligny.fr
+language: en
+languages:
+  - code: en
+    locale: en_US
+    name: English
+  #- code: fr
+  #  locale: fr
+  #  name: Français
+avatar: avatar.png
+image: avatar.png # image used for the social share
+metatags:
+  favicon:
+    image: avatar.png
+source: https://github.com/Cecilapp/Links
+theme:
+  - fontawesome
+  #- pwa
+  #- netlify
+manifest:
+  background_color: '#1E293B'
+  theme_color: '#1E293B'
+serviceworker:
+  enabled: true
+
+# disabled options
+defaultpages:
+  404:
+    published: false
+  sitemap:
+    published: false
+taxonomies:
+  categories: disabled
+  tags: disabled
+pagination:
+  enabled: false
+output:
+  pagetypeformats:
+    homepage: html
