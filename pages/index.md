@@ -11,7 +11,11 @@ links:
   - title: Bluesky
     url: https://bsky.app/profile/benjaminbellamy.fr
     color: '#007afe'
-    icon: solid:square     
+    icon: solid:square
+  - title: Threads 
+    url: https://www.threads.net/@benjaminbellamy
+    color: '#101010'
+    icon: brands:threads
   - title: Twitter
     url: https://twitter.com/benjaminbellamy
     color: '#1D9BF0'
@@ -20,10 +24,6 @@ links:
     url: https://www.linkedin.com/in/bellamy/
     color: '#0a66c2'
     icon: brands:linkedin
-  - title: GitHub
-    url: https://github.com/benjaminbellamy
-    color: '#24292f'
-    icon: brands:github
   - title: Blog
     url: https://blog.castopod.org/author/benjamin-bellamy/
     color: '#009486'

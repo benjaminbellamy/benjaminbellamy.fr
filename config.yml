@@ -28,11 +28,6 @@ manifest:
 serviceworker:
   enabled: true
 
-defaultpages:
-  404:
-    published: false
-  sitemap:
-    published: false
 assets:
   images:
     optimize:
@@ -46,6 +41,16 @@ taxonomies:
   tags: disabled
 pagination:
   enabled: false
+pages:
+  default:
+    404:
+      published: false
+    sitemap:
+      published: false
+    xsl/atom:
+      published: false
+    xsl/rss:
+      published: false
 output:
   pagetypeformats:
     homepage: html
